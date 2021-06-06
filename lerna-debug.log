@@ -1,0 +1,200 @@
+0 silly argv {
+0 silly argv   _: [ 'bootstrap' ],
+0 silly argv   hoist: true,
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath C:\xampp\htdocs\law_hands\react-pdf-highlighter-master
+3 verbose hoist using globs ["**"]
+4 silly npmConfig {
+4 silly npmConfig   registry: undefined,
+4 silly npmConfig   npmClient: 'npm',
+4 silly npmConfig   npmClientArgs: [],
+4 silly npmConfig   mutex: undefined
+4 silly npmConfig }
+5 info Bootstrapping 2 packages
+6 verbose lifecycle preinstall
+7 silly lifecycle No script for "preinstall" in "react-pdf-highlighter", continuing
+8 silly lifecycle No script for "preinstall" in "example", continuing
+9 warn EHOIST_PKG_VERSION "example" package depends on react@^16.8.6, which differs from the hoisted react@^16.13.1.
+10 warn EHOIST_PKG_VERSION "example" package depends on react-dom@^16.8.6, which differs from the hoisted react-dom@^16.13.1.
+11 silly hasDependencyInstalled react-pdf-highlighter-monorepo concurrently
+12 silly hasDependencyInstalled react-pdf-highlighter-monorepo gh-pages
+13 silly hasDependencyInstalled react-pdf-highlighter-monorepo lerna
+14 silly hasDependencyInstalled react-pdf-highlighter-monorepo prettier
+15 silly hasDependencyInstalled react-pdf-highlighter-monorepo wait-on
+16 silly hasDependencyInstalled react-pdf-highlighter-monorepo @babel/plugin-syntax-jsx
+17 silly hasDependencyInstalled react-pdf-highlighter-monorepo @testing-library/jest-dom
+18 silly hasDependencyInstalled react-pdf-highlighter-monorepo @testing-library/react
+19 silly hasDependencyInstalled react-pdf-highlighter-monorepo @testing-library/user-event
+20 silly hasDependencyInstalled react-pdf-highlighter-monorepo flow-bin
+21 silly hasDependencyInstalled react-pdf-highlighter-monorepo flow-typed
+22 silly hasDependencyInstalled react-pdf-highlighter-monorepo jest-puppeteer
+23 silly hasDependencyInstalled react-pdf-highlighter-monorepo puppeteer
+24 silly hasDependencyInstalled react-pdf-highlighter-monorepo react-scripts
+25 silly hasDependencyInstalled react-pdf-highlighter-monorepo worker-loader
+26 silly hasDependencyInstalled react-pdf-highlighter-monorepo react
+27 silly hasDependencyInstalled react-pdf-highlighter-monorepo react-dom
+28 silly hasDependencyInstalled react-pdf-highlighter-monorepo @babel/cli
+29 silly hasDependencyInstalled react-pdf-highlighter-monorepo @babel/core
+30 silly hasDependencyInstalled react-pdf-highlighter-monorepo @babel/plugin-proposal-class-properties
+31 silly hasDependencyInstalled react-pdf-highlighter-monorepo @babel/preset-flow
+32 silly hasDependencyInstalled react-pdf-highlighter-monorepo @babel/preset-react
+33 silly hasDependencyInstalled react-pdf-highlighter-monorepo flow-copy-source
+34 silly hasDependencyInstalled react-pdf-highlighter-monorepo lodash.debounce
+35 silly hasDependencyInstalled react-pdf-highlighter-monorepo pdfjs-dist
+36 silly hasDependencyInstalled react-pdf-highlighter-monorepo react-pointable
+37 silly hasDependencyInstalled react-pdf-highlighter-monorepo react-rnd
+38 silly hasDependencyInstalled example react
+39 silly hasDependencyInstalled example react-dom
+40 silly root dependencies {}
+41 silly leaf dependencies {}
+42 info Installing external dependencies
+43 verbose actions 3 actions, concurrency 2
+44 info hoist Installing hoisted dependencies into root
+45 silly npmInstallDependencies react-pdf-highlighter-monorepo [
+45 silly npmInstallDependencies   'concurrently@^5.0.2',
+45 silly npmInstallDependencies   'gh-pages@^3.1.0',
+45 silly npmInstallDependencies   'lerna@^3.20.2',
+45 silly npmInstallDependencies   'prettier@^2.0.5',
+45 silly npmInstallDependencies   'wait-on@^5.1.0',
+45 silly npmInstallDependencies   '@babel/plugin-syntax-jsx@^7.12.13',
+45 silly npmInstallDependencies   '@testing-library/jest-dom@^5.11.2',
+45 silly npmInstallDependencies   '@testing-library/react@^10.4.7',
+45 silly npmInstallDependencies   '@testing-library/user-event@^12.0.17',
+45 silly npmInstallDependencies   'flow-bin@^0.130.0',
+45 silly npmInstallDependencies   'flow-typed@^3.2.1',
+45 silly npmInstallDependencies   'jest-puppeteer@^4.4.0',
+45 silly npmInstallDependencies   'puppeteer@^5.2.1',
+45 silly npmInstallDependencies   'react-scripts@3.4.1',
+45 silly npmInstallDependencies   'worker-loader@^2.0.0',
+45 silly npmInstallDependencies   'react@^16.13.1',
+45 silly npmInstallDependencies   'react-dom@^16.13.1',
+45 silly npmInstallDependencies   '@babel/cli@^7.10.5',
+45 silly npmInstallDependencies   '@babel/core@^7.10.5',
+45 silly npmInstallDependencies   '@babel/plugin-proposal-class-properties@^7.10.4',
+45 silly npmInstallDependencies   '@babel/preset-flow@^7.10.4',
+45 silly npmInstallDependencies   '@babel/preset-react@^7.10.4',
+45 silly npmInstallDependencies   'flow-copy-source@^2.0.9',
+45 silly npmInstallDependencies   'lodash.debounce@^4.0.8',
+45 silly npmInstallDependencies   'pdfjs-dist@2.6.347',
+45 silly npmInstallDependencies   'react-pointable@^1.1.1',
+45 silly npmInstallDependencies   'react-rnd@^10.1.10'
+45 silly npmInstallDependencies ]
+46 silly npmInstallDependencies backup C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\package.json
+47 info hoist Pruning hoisted dependencies
+48 silly prune [
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\@babel\\plugin-syntax-jsx',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\@testing-library\\jest-dom',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\@testing-library\\react',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\@testing-library\\user-event',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\flow-bin',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\flow-bin',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\flow-typed',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\flow-typed',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\jest-puppeteer',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\puppeteer',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\react-scripts',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\example\\node_modules\\worker-loader',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\react',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\react-dom',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\@babel\\cli',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\@babel\\core',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\@babel\\plugin-proposal-class-properties',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\@babel\\preset-flow',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\@babel\\preset-react',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\flow-copy-source',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\lodash.debounce',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\pdfjs-dist',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\react-pointable',
+48 silly prune   'C:\\xampp\\htdocs\\law_hands\\react-pdf-highlighter-master\\packages\\react-pdf-highlighter\\node_modules\\react-rnd'
+48 silly prune ]
+49 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\@babel\plugin-syntax-jsx
+50 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\@testing-library\jest-dom
+51 silly npmInstallDependencies writing tempJson {
+51 silly npmInstallDependencies   private: true,
+51 silly npmInstallDependencies   name: 'react-pdf-highlighter-monorepo',
+51 silly npmInstallDependencies   devDependencies: {
+51 silly npmInstallDependencies     concurrently: '^5.0.2',
+51 silly npmInstallDependencies     'gh-pages': '^3.1.0',
+51 silly npmInstallDependencies     lerna: '^3.20.2',
+51 silly npmInstallDependencies     prettier: '^2.0.5',
+51 silly npmInstallDependencies     'wait-on': '^5.1.0'
+51 silly npmInstallDependencies   },
+51 silly npmInstallDependencies   engines: { npm: '<7' },
+51 silly npmInstallDependencies   dependencies: {
+51 silly npmInstallDependencies     '@babel/plugin-syntax-jsx': '^7.12.13',
+51 silly npmInstallDependencies     '@testing-library/jest-dom': '^5.11.2',
+51 silly npmInstallDependencies     '@testing-library/react': '^10.4.7',
+51 silly npmInstallDependencies     '@testing-library/user-event': '^12.0.17',
+51 silly npmInstallDependencies     'flow-bin': '^0.130.0',
+51 silly npmInstallDependencies     'flow-typed': '^3.2.1',
+51 silly npmInstallDependencies     'jest-puppeteer': '^4.4.0',
+51 silly npmInstallDependencies     puppeteer: '^5.2.1',
+51 silly npmInstallDependencies     'react-scripts': '3.4.1',
+51 silly npmInstallDependencies     'worker-loader': '^2.0.0',
+51 silly npmInstallDependencies     react: '^16.13.1',
+51 silly npmInstallDependencies     'react-dom': '^16.13.1',
+51 silly npmInstallDependencies     '@babel/cli': '^7.10.5',
+51 silly npmInstallDependencies     '@babel/core': '^7.10.5',
+51 silly npmInstallDependencies     '@babel/plugin-proposal-class-properties': '^7.10.4',
+51 silly npmInstallDependencies     '@babel/preset-flow': '^7.10.4',
+51 silly npmInstallDependencies     '@babel/preset-react': '^7.10.4',
+51 silly npmInstallDependencies     'flow-copy-source': '^2.0.9',
+51 silly npmInstallDependencies     'lodash.debounce': '^4.0.8',
+51 silly npmInstallDependencies     'pdfjs-dist': '2.6.347',
+51 silly npmInstallDependencies     'react-pointable': '^1.1.1',
+51 silly npmInstallDependencies     'react-rnd': '^10.1.10'
+51 silly npmInstallDependencies   }
+51 silly npmInstallDependencies }
+52 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\@babel\plugin-syntax-jsx
+53 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\@testing-library\react
+54 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\@testing-library\jest-dom
+55 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\@testing-library\user-event
+56 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\@testing-library\react
+57 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\flow-bin
+58 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\@testing-library\user-event
+59 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\flow-bin
+60 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\flow-bin
+61 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\flow-typed
+62 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\flow-typed
+63 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\flow-typed
+64 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\flow-typed
+65 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\jest-puppeteer
+66 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\jest-puppeteer
+67 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\puppeteer
+68 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\puppeteer
+69 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\react-scripts
+70 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\react-scripts
+71 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\worker-loader
+72 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\worker-loader
+73 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\react
+74 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\react
+75 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\react-dom
+76 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\react-dom
+77 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\cli
+78 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\cli
+79 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\core
+80 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\core
+81 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\plugin-proposal-class-properties
+82 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\plugin-proposal-class-properties
+83 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\preset-flow
+84 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\preset-flow
+85 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\preset-react
+86 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\@babel\preset-react
+87 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\flow-copy-source
+88 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\flow-copy-source
+89 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\lodash.debounce
+90 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\lodash.debounce
+91 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\pdfjs-dist
+92 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\pdfjs-dist
+93 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\react-pointable
+94 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\react-pointable
+95 silly rimrafDir C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\react-rnd
+96 verbose prune C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\react-pdf-highlighter\node_modules\react-rnd
+97 silly getExecOpts C:\xampp\htdocs\law_hands\react-pdf-highlighter-master undefined
+98 silly npmInstall [ 'npm', [ 'install' ] ]
+99 error Error: Command failed: C:\Program Files (x86)\nodejs\node.exe C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\node_modules\rimraf\bin.js --no-glob C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\packages\example\node_modules\flow-bin\
+99 error     at makeError (C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\node_modules\execa\index.js:174:9)
+99 error     at C:\xampp\htdocs\law_hands\react-pdf-highlighter-master\node_modules\execa\index.js:278:16
